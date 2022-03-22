@@ -7,9 +7,8 @@ import (
 
 func main() {
 	var maxDigit int
-	var result []int
-	fmt.Scanf("%d", maxDigit)
-	result = getPossibleNumbers(maxDigit)
+	fmt.Scanf("%d", &maxDigit)
+	result := getPossibleNumbers(maxDigit)
 	fmt.Print(result)
 }
 
