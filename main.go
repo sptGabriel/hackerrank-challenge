@@ -13,7 +13,7 @@ func main() {
 }
 
 func getPossibleNumbers(maxDigit int) []int {
-	var result []int
+	result := make([]int, 0)
 	for i := 1000; i < 9999; i++ {
 		strNumber := strconv.Itoa(i)
 
