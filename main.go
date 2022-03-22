@@ -21,7 +21,6 @@ func getPossibleNumbers(maxDigit int) []int {
 		for _, value := range []byte(strNumber) {
 			value, err := strconv.Atoi(string(value))
 			if err != nil {
-				result = result[:0]
 				continue
 			}
 
