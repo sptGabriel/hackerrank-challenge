@@ -21,42 +21,42 @@ func TestChallenge(t *testing.T) {
 			args: args{
 				maxDigit: 0,
 			},
-			want: nil,
+			want: []int{},
 		},
 		{
 			name: "Should return all combinations of 1",
 			args: args{
 				maxDigit: 1,
 			},
-			want: nil,
+			want: []int{},
 		},
 		{
 			name: "Should return all combinations of 2",
 			args: args{
 				maxDigit: 2,
 			},
-			want: nil,
+			want: []int{},
 		},
 		{
 			name: "Should return all combinations of 3",
 			args: args{
 				maxDigit: 3,
 			},
-			want: nil,
+			want: []int{},
 		},
 		{
 			name: "Should return all combinations of 4",
 			args: args{
 				maxDigit: 4,
 			},
-			want: nil,
+			want: []int{},
 		},
 		{
 			name: "Should return all combinations of 5",
 			args: args{
 				maxDigit: 5,
 			},
-			want: nil,
+			want: []int{},
 		},
 		{
 			name: "Should return all combinations of 6",
